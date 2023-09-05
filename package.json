@@ -1,0 +1,23 @@
+{
+	"name": "blog-backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "npx nodemon server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@clerk/backend": "^0.28.0",
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
+		"jsonwebtoken": "^9.0.1",
+		"multer": "^1.4.5-lts.1",
+		"pg": "^8.11.3",
+		"sequelize": "^6.32.1"
+	}
+}
